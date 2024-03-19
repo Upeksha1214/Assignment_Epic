@@ -30,69 +30,69 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="text" id="employeeCode" name="employeeCode" class="form-control" />
-                                            <label class="form-label" for="employeeCode">Employee Code</label>
+                                            <input type="text" id="txtEmployeeCode" name="employeeCode" class="form-control" />
+                                            <label class="form-label" for="txtEmployeeCode">Employee Code</label>
                                         </div>
                                     </div>
                                     
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="name" id="firstName" class="form-control" />
-                                            <label class="form-label" for="firstName">First Name</label>
+                                            <input type="name" id="txtFirstName" class="form-control" />
+                                            <label class="form-label" for="txtFirstName">First Name</label>
                                         </div>
                                     </div>
                                     
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="password" id="userPassword" class="form-control" />
-                                            <label class="form-label" for="userPassword">Password</label>
+                                            <input type="password" id="txtPassword" class="form-control" />
+                                            <label class="form-label" for="txtPassword">Password</label>
                                         </div>
                                     </div>
 
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="name" id="lastName" class="form-control" />
-                                            <label class="form-label" for="lastName">Last Name</label>
+                                            <input type="name" id="txtLastName" class="form-control" />
+                                            <label class="form-label" for="txtLastName">Last Name</label>
                                         </div>
                                     </div>
 
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="text" id="address" class="form-control" />
-                                            <label class="form-label" for="address">Address</label>
+                                            <input type="text" id="txtAddress" class="form-control" />
+                                            <label class="form-label" for="txtAddress">Address</label>
                                         </div>
                                     </div>
 
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="text" id="NIC" class="form-control" />
-                                            <label class="form-label" for="NIC">NIC </label>
+                                            <input type="text" id="txtNIC" class="form-control" />
+                                            <label class="form-label" for="txtNIC">NIC </label>
                                         </div>
                                     </div>
 
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="number" id="mobileNo" class="form-control" />
-                                            <label class="form-label" for="mobileNo">Mobile No </label>
+                                            <input type="number" id="txtMobileNo" class="form-control" />
+                                            <label class="form-label" for="txtMobileNo">Mobile No </label>
                                         </div>
                                     </div>
 
-                                    <label class="form-label" for="mobileNo">Gender </label>
+                                    <label class="form-label" >Gender </label>
 
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                            <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="Male">
                                             <label class="form-check-label" for="inlineRadio1">Male</label>
                                         </div>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                            <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="Female">
                                             <label class="form-check-label" for="inlineRadio2">Female</label>
                                         </div>
                                     </div>
@@ -101,9 +101,9 @@
                                         <label for="designation">Designation:</label>
                                         <select class="form-control" id="designation">
                                             <option value="">Select Designation</option>
-                                            <option value="developer">Developer</option>
-                                            <option value="designer">Designer</option>
-                                            <option value="manager">Manager</option>
+                                            <option value="developer">Intern</option>
+                                            <option value="designer">ASE</option>
+                                            <option value="manager">SE</option>
                                         </select>
                                     </div>
 
