@@ -1,190 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b92f23a2-0c5f-417b-b511-f207f208525f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/mycompany/assingment/bo/UserControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/mycompany/assingment/bo/UserControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/mycompany/assingment/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/mycompany/assingment/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/employee.html" afterDir="false" />
-    </list>
+    <list default="true" id="9b01aaa9-e32c-41b1-b848-6d2a19c82ac4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="2dtAB5S9iwm6Q1umqkRahK2QaHS" />
+  <component name="ProjectId" id="2dtvvxZsF4QGvxtM3EZoTdD6kMv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3091954" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\upeksha_k\Desktop\New folder\Assingment\web" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="GlassfishConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings>
-        <option name="DOMAIN" value="" />
-        <option name="PRESERVE" value="false" />
-        <option name="COMPATIBILITY" value="false" />
-        <option name="VIRTUAL_SERVER" />
-        <option name="USERNAME" value="admin" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="GlassFish" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="9009" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b92f23a2-0c5f-417b-b511-f207f208525f" name="Default Changelist" comment="" />
-      <created>1710816861620</created>
+      <changelist id="9b01aaa9-e32c-41b1-b848-6d2a19c82ac4" name="Default Changelist" comment="" />
+      <created>1710840424013</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1710816861620</updated>
-      <workItem from="1710816870452" duration="7975000" />
+      <updated>1710840424013</updated>
+      <workItem from="1710840431607" duration="901000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="457" y="270" key="#Glassfish_Server" timestamp="1710817051846">
+    <state x="457" y="270" key="#Glassfish_Server" timestamp="1710840688498">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="457" y="270" key="#Glassfish_Server/0.0.1366.728@0.0.1366.728" timestamp="1710817051846" />
-    <state x="72" y="205" key="#SQL_Dialects" timestamp="1710817591475">
+    <state x="457" y="270" key="#Glassfish_Server/0.0.1366.728@0.0.1366.728" timestamp="1710840688498" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1710840689402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="72" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1710817591475" />
-    <state x="461" y="242" key="#Tomcat_Server" timestamp="1710816935614">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1710840689402" />
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1710840682616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="461" y="242" key="#Tomcat_Server/0.0.1366.728@0.0.1366.728" timestamp="1710816935614" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1710817605902">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1710817605902" />
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1710824748577">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1710824748577" />
-    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1710817011450">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1710817011450" />
-    <state x="163" y="3" width="1040" height="725" key="SettingsEditor" timestamp="1710817105051">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="3" width="1040" height="725" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1710817105051" />
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1710840682616" />
   </component>
 </project>
