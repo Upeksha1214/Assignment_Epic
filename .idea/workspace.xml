@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b92f23a2-0c5f-417b-b511-f207f208525f" name="Default Changelist" comment="" />
+    <list default="true" id="b92f23a2-0c5f-417b-b511-f207f208525f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,12 +40,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3091954" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="GlassfishConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -99,33 +122,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710816861620</updated>
-      <workItem from="1710816870452" duration="198000" />
+      <workItem from="1710816870452" duration="1415000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="457" y="270" key="#Glassfish_Server" timestamp="1710817051846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="270" key="#Glassfish_Server/0.0.1366.728@0.0.1366.728" timestamp="1710817051846" />
+    <state x="72" y="205" key="#SQL_Dialects" timestamp="1710817591475">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="72" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1710817591475" />
     <state x="461" y="242" key="#Tomcat_Server" timestamp="1710816935614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="461" y="242" key="#Tomcat_Server/0.0.1366.728@0.0.1366.728" timestamp="1710816935614" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1710817059981">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1710817605902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1710817059981" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1710817605902" />
     <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1710817011450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1710817011450" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1710817078565">
+    <state x="163" y="3" width="1040" height="725" key="SettingsEditor" timestamp="1710817105051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1710817078565" />
+    <state x="163" y="3" width="1040" height="725" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1710817105051" />
   </component>
 </project>
