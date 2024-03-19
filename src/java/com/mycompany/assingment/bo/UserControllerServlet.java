@@ -56,7 +56,7 @@ public class UserControllerServlet extends HttpServlet {
 
 
         try {
-            boolean add = UserDAO.add(new User(userId, name, email, phoneNumber,password));
+            boolean add = UserDAO.add(new User());// addimg constructre 
 
             if (add){
 
