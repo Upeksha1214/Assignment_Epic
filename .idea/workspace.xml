@@ -21,15 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b92f23a2-0c5f-417b-b511-f207f208525f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/UserControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/UserControllerServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/gfv700ee10.dpf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/com/mycompany/assingment/bo/UserControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/mycompany/assingment/bo/UserControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/mycompany/assingment/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/mycompany/assingment/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710816861620</updated>
-      <workItem from="1710816870452" duration="5091000" />
+      <workItem from="1710816870452" duration="7975000" />
     </task>
     <servers />
   </component>
@@ -177,6 +174,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1710817605902" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1710824748577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1710824748577" />
     <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1710817011450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

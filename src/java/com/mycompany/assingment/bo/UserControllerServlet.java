@@ -41,13 +41,20 @@ public class UserControllerServlet extends HttpServlet {
         JsonReader reader = Json.createReader(req.getReader());
         JsonObject jsonObject = reader.readObject();
 
-        String userId=jsonObject.getString("id");
-        String name=jsonObject.getString("name");
-        String email=jsonObject.getString("email");
-        int phoneNumber=jsonObject.getInt("phoneNumber");
+        String employeeCode=jsonObject.getString("employeeCode");
+        String firstName=jsonObject.getString("firstName");
         String password=jsonObject.getString("password");
+        String lastName=jsonObject.getString("lastName");
+        String address=jsonObject.getString("address");
+        String NIC=jsonObject.getString("NIC");
+        int mobileNo=jsonObject.getInt("mobileNo");
+        String gender=jsonObject.getString("gender");
+        String eMail=jsonObject.getString("eMail");
+        String designationMasterData=jsonObject.getString("designationMasterData");
+        String dateOfBirth=jsonObject.getString("dateOfBirth");
+        String status=jsonObject.getString("status");
 
-        System.out.println(userId+" "+name+" "+email+" "+phoneNumber+" "+password);
+        System.out.println(employeeCode+" "+firstName+" "+password+" "+lastName+" "+address+" "+NIC+" "+mobileNo+" "+gender+" "+eMail+" "+designationMasterData+" "+dateOfBirth+" "+status);
 
 
 
@@ -56,7 +63,7 @@ public class UserControllerServlet extends HttpServlet {
 
 
         try {
-            boolean add = UserDAO.add(new User());// addimg constructre 
+            boolean add = UserDAO.add(new User(employeeCode,firstName,password,lastName,address,NIC,mobileNo,gender,eMail,designationMasterData,dateOfBirth,status));
 
             if (add){
 
