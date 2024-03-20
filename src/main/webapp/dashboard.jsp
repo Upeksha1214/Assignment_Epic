@@ -77,6 +77,30 @@
                 </div>
                 <div class="modal-body">
 
+                    <div class="d-flex flex-row align-items-center mb-4">
+                        <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                            <input type="text" id="txtEmployeeNo" name="employeeNo" class="form-control" />
+                            <label class="form-label" for="txtEmployeeNo">Employee No </label>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center mb-4">
+                        <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                            <input type="text" id="txtGender" name="gender" class="form-control" />
+                            <label class="form-label" for="txtGender">Gender </label>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center mb-4">
+                        <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                            <input type="text" id="txtDateOfBirth" name="dateOfBirth" class="form-control" />
+                            <label class="form-label" for="txtDateOfBirth">Date of Birth </label>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

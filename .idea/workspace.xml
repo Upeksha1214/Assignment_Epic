@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b01aaa9-e32c-41b1-b848-6d2a19c82ac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/abc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/employee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/employee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710840424013</updated>
       <workItem from="1710840431607" duration="3997000" />
-      <workItem from="1710902553239" duration="19075000" />
+      <workItem from="1710902553239" duration="19892000" />
     </task>
     <servers />
   </component>
