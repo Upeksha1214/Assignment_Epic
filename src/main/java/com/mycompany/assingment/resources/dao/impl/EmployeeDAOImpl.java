@@ -4,6 +4,7 @@
  */
 package com.mycompany.assingment.resources.dao.impl;
 
+import com.mycompany.assingment.resources.dao.CrudUtill;
 import com.mycompany.assingment.resources.model.Employee;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -25,9 +26,12 @@ public class EmployeeDAOImpl implements com.mycompany.assingment.resources.dao.E
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     @Override
-    public boolean add(Object t) throws SQLException, ClassNotFoundException {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public boolean add(Employee e) throws SQLException, ClassNotFoundException {
+        return CrudUtill.executeUpdate("INSERT INTO  registration " +
+                        "(employeeCode,password,firstName,lastName,address,NIC,mobileNo,gender,email,designationMasterData,dateOfBirth,Status) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+                e.getEmployeeCode(),e.getPassword(),e.getFirstName(),e.getLastName(),e.getAddress(),e.getNIC(),e.getMobileNo(),e.getGender(),e.geteMail(),e.getDesignationMasterData(),e.getDateOfBirth(),e.getStatus());
     }
+
 
     @Override
     public boolean delete(Object id) throws SQLException, ClassNotFoundException {

@@ -4,6 +4,8 @@
  */
 package com.mycompany.assingment.resources.dao;
 
+import com.mycompany.assingment.resources.model.Employee;
+
 import java.sql.SQLException;
 import java.util.ArrayList;
 
@@ -12,7 +14,7 @@ import java.util.ArrayList;
  * @author upeksha_k
  */
 public interface CrudDAO <T, id> extends SuperDAO{
-    boolean add(T t) throws SQLException, ClassNotFoundException;
+    boolean add(Employee e) throws SQLException, ClassNotFoundException;
 
     boolean delete(id id) throws SQLException, ClassNotFoundException;
 

@@ -28,7 +28,7 @@ import java.util.List;
  * @author upeksha_k
  */
 
-@WebServlet(urlPatterns = "/Employee")
+@WebServlet(urlPatterns ="/Employee")
 public class EmployeeControllerServlet extends HttpServlet{
     EmployeeDAO employeeDAO =(EmployeeDAO) DAOFactroy.getDAOFactory().getDAO(DAOFactroy.DAOType.Employee);
     JsonObjectBuilder response= Json.createObjectBuilder();
@@ -71,7 +71,7 @@ public class EmployeeControllerServlet extends HttpServlet{
                 response.add("message", "Successfully Added");
                 response.add("data", "");
                 writer.print(response.build());
-                System.out.println("customer add");
+                System.out.println("Employee add");
             }
 
         } catch (SQLException throwables) {
@@ -112,7 +112,7 @@ public class EmployeeControllerServlet extends HttpServlet{
     private void employee(HttpServletRequest request, HttpServletResponse response)
             throws SQLException, IOException, ServletException {
         List<Employee> employee = new EmployeeServiceImpl().getAllUsersInfo();
-        request.setAttribute("user", employee);
+        request.setAttribute("employee", employee);
         RequestDispatcher dispatcher = request.getRequestDispatcher("");
         dispatcher.forward(request, response);
     }
@@ -132,14 +132,14 @@ public class EmployeeControllerServlet extends HttpServlet{
                 JsonObjectBuilder objectBuilder = Json.createObjectBuilder();
                 objectBuilder.add("status", 200);
                 objectBuilder.add("data", "");
-                objectBuilder.add("message", "Successfully Deleted Item");
+                objectBuilder.add("message", "Successfully Deleted Employee");
                 writer.print(objectBuilder.build());
 
             } else {
                 JsonObjectBuilder objectBuilder = Json.createObjectBuilder();
                 objectBuilder.add("status", 400);
                 objectBuilder.add("data", "");
-                objectBuilder.add("message", "Item Delete Fail");
+                objectBuilder.add("message", "Employee Delete Fail");
                 writer.print(objectBuilder.build());
             }
 
@@ -179,13 +179,13 @@ public class EmployeeControllerServlet extends HttpServlet{
             JsonObjectBuilder objectBuilder = Json.createObjectBuilder();
             objectBuilder.add("status", 200);
             objectBuilder.add("data", "");
-            objectBuilder.add("message", "Successfully Updated Item");
+            objectBuilder.add("message", "Successfully Updated Employee");
             writer.print(objectBuilder.build());
         } else {
             JsonObjectBuilder objectBuilder = Json.createObjectBuilder();
             objectBuilder.add("status", 400);
             objectBuilder.add("data", "");
-            objectBuilder.add("message", "Item Update Failed");
+            objectBuilder.add("message", "Employee Update Failed");
             writer.print(objectBuilder.build());
         }
     }

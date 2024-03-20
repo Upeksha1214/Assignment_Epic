@@ -38,7 +38,7 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="name" id="txtFirstName" class="form-control" />
+                                            <input type="name" id="txtFirstName" name="firstName" class="form-control" />
                                             <label class="form-label" for="txtFirstName">First Name</label>
                                         </div>
                                     </div>
@@ -46,7 +46,7 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="password" id="txtPassword" class="form-control" />
+                                            <input type="password" id="txtPassword" name="password" class="form-control" />
                                             <label class="form-label" for="txtPassword">Password</label>
                                         </div>
                                     </div>
@@ -54,7 +54,7 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="name" id="txtLastName" class="form-control" />
+                                            <input type="name" id="txtLastName" name="lastName" class="form-control" />
                                             <label class="form-label" for="txtLastName">Last Name</label>
                                         </div>
                                     </div>
@@ -62,7 +62,7 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="text" id="txtAddress" class="form-control" />
+                                            <input type="text" id="txtAddress" name="address" class="form-control" />
                                             <label class="form-label" for="txtAddress">Address</label>
                                         </div>
                                     </div>
@@ -70,7 +70,7 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="text" id="txtNIC" class="form-control" />
+                                            <input type="text" id="txtNIC" name="NIC" class="form-control" />
                                             <label class="form-label" for="txtNIC">NIC </label>
                                         </div>
                                     </div>
@@ -78,7 +78,7 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="number" id="txtMobileNo" class="form-control" />
+                                            <input type="text" id="txtMobileNo" name="mobileNo" class="form-control" />
                                             <label class="form-label" for="txtMobileNo">Mobile No </label>
                                         </div>
                                     </div>
@@ -97,9 +97,17 @@
                                         </div>
                                     </div>
 
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+                                            <input type="text" id="txtEmail" name="eMail" class="form-control" />
+                                            <label class="form-label" for="txtEmail">Email </label>
+                                        </div>
+                                    </div>
+
                                     <div class="form-group ">
                                         <label for="designation">Designation:</label>
-                                        <select class="form-control" id="designation">
+                                        <select class="form-control" id="designation" name="designationMasterData">
                                             <option value="">Select Designation</option>
                                             <option value="developer">Intern</option>
                                             <option value="designer">ASE</option>
@@ -118,10 +126,10 @@
                                     </div>
 
 
-                                    <div class="d-flex flex-row align-items-center mb-4">
+                                    <div class="d- flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="date" id="dateOfBirth" class="form-control" />
+                                            <input type="date" id="dateOfBirth" name="dateOfBirth" class="form-control" />
                                             <label class="form-label" for="dateOfBirth">Date of birth </label>
                                         </div>
                                     </div>
@@ -129,7 +137,7 @@
 
                                     <div class="form-group ">
                                         <label for="designation">Status:</label>
-                                        <select class="form-control" id="status">
+                                        <select class="form-control" id="status" name="status">
                                             <option value="">default</option>
                                             <option value="developer">Active</option>
                                             <option value="designer">Inactive</option>
@@ -137,7 +145,7 @@
                                     </div>
 
                                     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                        <button type="button" class="btn btn-primary btn-lg" id="btnRegister">Register</button>
+                                        <button type="submit" class="btn btn-primary btn-lg" id="btnRegister">Register</button>
                                     </div>
 
                                 </form>
@@ -158,3 +166,4 @@
 </section>
 </body>
 </html>
+
