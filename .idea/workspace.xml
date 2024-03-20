@@ -20,15 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b01aaa9-e32c-41b1-b848-6d2a19c82ac4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/abc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/employee.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/employee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Assingment-1.0-SNAPSHOT/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,11 +54,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710840424013</updated>
       <workItem from="1710840431607" duration="3997000" />
-      <workItem from="1710902553239" duration="9375000" />
+      <workItem from="1710902553239" duration="19075000" />
     </task>
     <servers />
   </component>
@@ -81,6 +99,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="270" key="#Glassfish_Server/0.0.1366.728@0.0.1366.728" timestamp="1710840688498" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1710916213786">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1710916213786" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1710840689402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -93,5 +115,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1710840682616" />
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1710929574347">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1710929574347" />
   </component>
 </project>

@@ -121,8 +121,8 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                         <div class="mb-3">
-                                            <input class="form-control" type="file" id="formFileMultiple" multiple>
-                                            <label for="formFileMultiple" class="form-label">Profile Image</label>
+                                            <input class="form-control" type="file" id="uploadImg" multiple>
+                                            <label for="uploadImg" class="form-label">Profile Image</label>
                                         </div>
                                     </div>
 

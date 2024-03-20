@@ -9,6 +9,7 @@ function register() {
     var gender = $("input[name='gender']:checked").val();
     var eMail = $("#txtEmail").val();
     var designation = $("#designation").val();
+    //var uploadImg = $("#uploadImg").val();
     var dateOfBirth = $("#dateOfBirth").val();
     var status = $("#status").val();
 
@@ -23,6 +24,7 @@ function register() {
         gender: gender,
         eMail: eMail,
         designation: designation,
+        //uploadImg: uploadImg,
         dateOfBirth: dateOfBirth,
         status: status
     };
@@ -35,14 +37,13 @@ function register() {
         success: function(res) {
             if (res.status == 200) {
                 alert(res.message);
-                clearAll();
-                loadAllCustomer();
+                
             } else if (res.status == 400) {
                 alert(res.data)
-                clearAll();
+                
             } else {
                 alert(res.data);
-                clearAll();
+                
             }
         }
     });
