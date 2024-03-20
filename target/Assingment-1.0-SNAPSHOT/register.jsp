@@ -10,6 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Register</title>
 </head>
@@ -145,7 +146,7 @@
                                     </div>
 
                                     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                        <button type="submit" class="btn btn-primary btn-lg" id="btnRegister">Register</button>
+                                        <button type="button" class="btn btn-primary btn-lg" id="btnRegister">Register</button>
                                     </div>
 
                                 </form>
@@ -164,6 +165,7 @@
         </div>
     </div>
 </section>
+<script src="employee.js" ></script>
 </body>
 </html>
 
