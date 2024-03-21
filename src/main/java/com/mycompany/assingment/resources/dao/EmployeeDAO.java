@@ -6,6 +6,7 @@ package com.mycompany.assingment.resources.dao;
 
 import com.mycompany.assingment.resources.model.Employee;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,7 +14,7 @@ import java.util.List;
  * @author upeksha_k
  */
 public interface EmployeeDAO extends CrudDAO<Object, Object>{
-    public abstract List<Employee> listAllEmployee() throws SQLException, ClassNotFoundException;
+    public abstract ArrayList<Employee> listAllEmployee() throws SQLException, ClassNotFoundException;
      
     boolean update(String id, String name, String email, String phoneNumber);
 }

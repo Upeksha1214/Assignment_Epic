@@ -81,9 +81,6 @@ public class EmployeeControllerServlet extends HttpServlet{
             response.add("data",throwables.getLocalizedMessage());
             writer.print(response.build());
 
-
-
-
             throwables.printStackTrace();
         } catch (ClassNotFoundException e) {
             resp.setStatus(HttpServletResponse.SC_CREATED);//201
@@ -91,8 +88,6 @@ public class EmployeeControllerServlet extends HttpServlet{
             response.add("message", "Error");
             response.add("data", e.getLocalizedMessage());
             writer.print(response.build());
-
-
 
             e.printStackTrace();
         }
